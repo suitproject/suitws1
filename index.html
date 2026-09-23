@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Workshop on Physics of Near- and Mid-UV Radiation from the Sun and Its Effects on Climate | IUCAA, Pune</title>
+  <meta name="description" content="International Workshop on Physics of Near- and Mid-UV Radiation from the Sun and Its Effects on Climate. October 21-23, 2026, IUCAA, Pune.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=STIX+Two+Text:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Partner Institutions Logo Banner (Black Background, Large, Original Colors) -->
+  <header class="logo-header">
+    <div class="container logo-container">
+      <!-- IUCAA Logo -->
+      <div class="logo-item" title="Inter-University Centre for Astronomy and Astrophysics (IUCAA)">
+        <img src="assets/iucaa_clean.png" alt="IUCAA Logo">
+      </div>
+      <!-- Max Planck Institute for Solar System Research (MPS) -->
+      <div class="logo-item" title="Max Planck Institute for Solar System Research (MPS)">
+        <img src="assets/mps_transparent.png" alt="Max Planck Institute for Solar System Research (MPS)">
+      </div>
+      <!-- Georg-August-Universität Göttingen -->
+      <div class="logo-item ga-item" title="Georg-August-Universität Göttingen">
+        <img src="assets/ga_transparent.png" alt="Georg-August-Universität Göttingen">
+      </div>
+      <!-- DWIH New Delhi -->
+      <div class="logo-item" title="German Centre for Research and Innovation (DWIH New Delhi)">
+        <img src="assets/dwih_clean.png" alt="DWIH New Delhi Logo">
+      </div>
+      <!-- Sun @ IUCAA -->
+      <div class="logo-item sun-iucaa-item" title="Sun @ IUCAA">
+        <img src="assets/sun_at_iucaa.png" alt="Sun @ IUCAA Logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- Workshop Title & Full Sun Observation Banner -->
+  <div class="title-banner">
+    <div class="container">
+      <h1 class="workshop-heading">
+        International Workshop on Physics of Near- and Mid-UV Radiation from the Sun and Its Effects on Climate
+      </h1>
+      <div class="workshop-meta">
+        <span class="meta-item">
+          <svg class="svg-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>October 21–23, 2026</span>
+        </span>
+        <span class="meta-divider">&bull;</span>
+        <span class="meta-item">
+          <svg class="svg-icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>IUCAA, Pune</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Full Sun Observation Banner (Proportionate, borderless) -->
+    <div class="solar-hero-strip">
+      <a href="assets/fulldisk.png" target="_blank" rel="noopener noreferrer" title="Click to view full-resolution observation composite">
+        <picture>
+          <source srcset="assets/fulldisk_watermark.webp" type="image/webp">
+          <img src="assets/fulldisk_watermark.png" alt="Full-disk solar ultraviolet observations from the Solar Ultraviolet Imaging Telescope (SUIT) aboard Aditya-L1" class="solar-hero-img">
+        </picture>
+      </a>
+    </div>
+  </div>
+
+  <!-- Navigation Console Tabs -->
+  <div class="nav-tabs-wrapper">
+    <div class="container">
+      <nav class="nav-tabs" role="tablist">
+        <button class="nav-tab-btn active" data-tab="tab-program" role="tab">
+          <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>Program Schedule</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="tab-posters" role="tab">
+          <svg class="svg-icon" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          <span>Posters</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="tab-participants" role="tab">
+          <svg class="svg-icon" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          <span>Participants</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="tab-venue" role="tab">
+          <svg class="svg-icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Venue &amp; Logistics</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="tab-contact" role="tab">
+          <svg class="svg-icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span>Contact Us</span>
+        </button>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <!-- ====================================================================
+         1. PROGRAM SCHEDULE PANEL
+         ==================================================================== -->
+    <section class="tab-panel active" id="tab-program">
+      <div class="day-selector-strip">
+        <button class="day-btn active" data-day="day1">
+          <svg class="svg-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>Day 1: October 21 (Wed)</span>
+        </button>
+        <button class="day-btn" data-day="day2">
+          <svg class="svg-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>Day 2: October 22 (Thu)</span>
+        </button>
+        <button class="day-btn" data-day="day3">
+          <svg class="svg-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>Day 3: October 23 (Fri)</span>
+        </button>
+      </div>
+
+      <!-- DAY 1 -->
+      <div class="day-schedule-view active" id="day1">
+        <div class="panel-header">
+        </div>
+
+        <table class="program-table">
+          <tbody>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 09:30 – 10:00</span></td>
+              <td>
+                <div class="talk-title">Registration and Welcome Address</div>
+                <div class="speaker-line">Director IUCAA, Poonam Suri (MPG), Elizabeth Songate (Göttingen University)</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:00 – 10:30</span></td>
+              <td>
+                <div class="talk-title">"Aditya-L1 Mission—Science Goals"</div>
+                <div class="speaker-line"><strong>K. Sankarasubramanian</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:30 – 10:50</span></td>
+              <td>
+                <div class="talk-title">"Aditya-L1 Mission status and technical challenges"</div>
+                <div class="speaker-line"><strong>M. Srikant</strong></div>
+              </td>
+            </tr>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:50 – 11:15</span></td>
+              <td>
+                <div class="talk-title">Tea/Coffee Break with posters</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:15 – 11:45</span></td>
+              <td>
+                <div class="talk-title">"The SUIT instrument—concept and science goals"</div>
+                <div class="speaker-line"><strong>Durgesh Tripathi</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:40 – 12:00</span></td>
+              <td>
+                <div class="talk-title">"Data assimilation, calibration, and data products from SUIT"</div>
+                <div class="speaker-line"><strong>P. Sreejith</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:00 – 12:20</span></td>
+              <td>
+                <div class="talk-title">"Modelling of stray light and limb darkening profile measurement"</div>
+                <div class="speaker-line"><strong>V. N. Nived</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:20 – 12:40</span></td>
+              <td>
+                <div class="talk-title">"Stellar Calibration of SUIT"</div>
+                <div class="speaker-line"><strong>Sojwal Rajmane</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:40 – 13:00</span></td>
+              <td>
+                <div class="talk-title">"SUIT Operations"</div>
+                <div class="speaker-line"><strong>Rahul Gopalakrishnan</strong></div>
+              </td>
+            </tr>
+            <tr class="lunch-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 13:00 – 14:00</span></td>
+              <td>
+                <div class="talk-title">Lunch Break</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14:00 – 14:20</span></td>
+              <td>
+                <div class="talk-title">"Level-2 data processing for SUIT"</div>
+                <div class="speaker-line"><strong>Janmejoy Sarkar</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14:20 – 14:40</span></td>
+              <td>
+                <div class="talk-title">"A physics-informed, self-supervised implicit neural network approach to blind deconvolution of SUIT/Aditya-L1 Images"</div>
+                <div class="speaker-line"><strong>Srinjana Routh</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14:40 – 15:20</span></td>
+              <td>
+                <div class="talk-title">"Solar variability on time scales of relevance to climate"</div>
+                <div class="speaker-line"><strong>Natalie Krivova</strong></div>
+              </td>
+            </tr>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 15:20 – 15:40</span></td>
+              <td>
+                <div class="talk-title">Tea/Coffee Break with posters</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 15:40 – 16:10</span></td>
+              <td>
+                <div class="talk-title">"Connecting chromospheric emission to photospheric magnetic field"</div>
+                <div class="speaker-line"><strong>Theodosios Chatzistergos</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 16:10 – 16:40</span></td>
+              <td>
+                <div class="talk-title">"Intensity contrast of magnetic features in the UV and their roles in solar spectral irradiance"</div>
+                <div class="speaker-line"><strong>Ajay Kumar Yadav</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 16:40 – 17:10</span></td>
+              <td>
+                <div class="talk-title">"The first spatially resolved Mg II index from SUIT"</div>
+                <div class="speaker-line"><strong>Megha Anand</strong></div>
+              </td>
+            </tr>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 17:10</span></td>
+              <td>
+                <div class="talk-title">Closing remarks for the day</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- DAY 2 -->
+      <div class="day-schedule-view" id="day2">
+        <div class="panel-header">
+        </div>
+
+        <table class="program-table">
+          <tbody>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:00 – 10:30</span></td>
+              <td>
+                <div class="talk-title">To be confirmed</div>
+                <div class="speaker-line"><strong>Dibyendu Nandi</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:30 – 11:00</span></td>
+              <td>
+                <div class="talk-title">"Long-term study of the prominence and relevance of SUIT measurements"</div>
+                <div class="speaker-line"><strong>Dipankar Banerjee</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:00 – 11:20</span></td>
+              <td>
+                <div class="talk-title">"First Solar Prominence observed with SUIT: a multi-wavelength study"</div>
+                <div class="speaker-line"><strong>P. Sreebala</strong></div>
+              </td>
+            </tr>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:20 – 11:40</span></td>
+              <td>
+                <div class="talk-title">Tea/Coffee Break with posters</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:40 – 12:00</span></td>
+              <td>
+                <div class="talk-title">"Balmer Continuum enhancement in SOL2024-10-03T12:15"</div>
+                <div class="speaker-line"><strong>Soumya Roy</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:00 – 12:20</span></td>
+              <td>
+                <div class="talk-title">"Solar Flare Analysis Using SUIT Data"</div>
+                <div class="speaker-line"><strong>Deepak Kathait</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:20 – 12:40</span></td>
+              <td>
+                <div class="talk-title">"Multi-wavelength study of Pre-flare activities with Aditya-L1"</div>
+                <div class="speaker-line"><strong>Adithya H.N.</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:40 – 13:00</span></td>
+              <td>
+                <div class="talk-title">"Plasma and magnetic field characteristics during Energetically-rich Soft X-ray-weak flares: Insights from Solar Orbiter and ADITYA-L1 Observations"</div>
+                <div class="speaker-line"><strong>Arun Kumar Awasthi</strong></div>
+              </td>
+            </tr>
+            <tr class="lunch-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 13:00 – 14:00</span></td>
+              <td>
+                <div class="talk-title">Lunch Break</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14:00 – 14:20</span></td>
+              <td>
+                <div class="talk-title">"Investigating Solar Coronal Transients using Multi-wavelength Observations and Data-Constrained MHD Simulations"</div>
+                <div class="speaker-line"><strong>Sanjay Kumar</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14:20 – 14:40</span></td>
+              <td>
+                <div class="talk-title">"Multi-Wavelength Investigation of Confined Solar Flares and Their Magnetic Field Topology"</div>
+                <div class="speaker-line"><strong>Alok Ranjan Tiwary</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14:40 – 15:00</span></td>
+              <td>
+                <div class="talk-title">"Fine Structure Dynamics and Three-Dimensional Numerical Reconstruction of a Quiescent Filament"</div>
+                <div class="speaker-line"><strong>Garima Karki</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 15:00 – 15:20</span></td>
+              <td>
+                <div class="talk-title">"Coordinated observations with MAST and SUIT"</div>
+                <div class="speaker-line"><strong>Shibu K. Mathew</strong></div>
+              </td>
+            </tr>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 15:20 – 15:40</span></td>
+              <td>
+                <div class="talk-title">Tea/Coffee Break with posters</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 15:40 – 16:00</span></td>
+              <td>
+                <div class="talk-title">"Small-scale dynamics in the lower solar atmosphere"</div>
+                <div class="speaker-line"><strong>Jayant Joshi</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 16:00 – 16:40</span></td>
+              <td>
+                <div class="talk-title">"UV Emissions from ARs with Different Magnetic Complexities"</div>
+                <div class="speaker-line"><strong>Munjiba M M</strong></div>
+              </td>
+            </tr>
+            <tr class="dinner-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Evening (19:30)</span></td>
+              <td>
+                <div class="talk-title">Workshop Dinner &bull; Toit Brewery &amp; Restaurant, Kalyani Nagar</div>
+                <div class="speaker-line">Official conference dinner for registered participants and guests.</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- DAY 3 -->
+      <div class="day-schedule-view" id="day3">
+        <div class="panel-header">
+        </div>
+
+        <table class="program-table">
+          <tbody>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:00 – 10:20</span></td>
+              <td>
+                <div class="talk-title">"Solar F-mode and its diagnostic significance"</div>
+                <div class="speaker-line"><strong>Nishant Singh</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:20 – 10:40</span></td>
+              <td>
+                <div class="talk-title">"Waves and oscillations in the sunspot umbra"</div>
+                <div class="speaker-line"><strong>Girjesh Gupta</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 10:40 – 11:00</span></td>
+              <td>
+                <div class="talk-title">"Investigating sunspot oscillations with SUIT"</div>
+                <div class="speaker-line"><strong>Sudip Mandal</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:20 – 11:40</span></td>
+              <td>
+                <div class="talk-title">"MHD Waves in Solar Atmosphere"</div>
+                <div class="speaker-line"><strong>Nitin Yadav</strong></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 11:40 – 12:00</span></td>
+              <td>
+                <div class="talk-title">"Relation between EUV waves and type II radio bursts"</div>
+                <div class="speaker-line"><strong>Ramesh Chandra</strong></div>
+              </td>
+            </tr>
+            <tr class="break-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:00 – 12:15</span></td>
+              <td>
+                <div class="talk-title">Tea Break</div>
+              </td>
+            </tr>
+            <tr class="discussion-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12:15 – 13:00</span></td>
+              <td>
+                <div class="talk-title">General discussion, possible projects, and collaborations</div>
+                <div class="speaker-line">Plenary discussion on future joint research campaigns and data exploitation.</div>
+              </td>
+            </tr>
+            <tr class="lunch-row">
+              <td class="time-cell"><span class="time-inner"><svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 13:00</span></td>
+              <td>
+                <div class="talk-title">Lunch and Departure</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         2. POSTER PRESENTATIONS PANEL
+         ==================================================================== -->
+    <section class="tab-panel" id="tab-posters">
+      <div class="panel-header">
+        <h2 class="panel-title">Poster Presentations</h2>
+        <span class="panel-date-badge">Displayed during 21st &amp; 22nd October</span>
+      </div>
+
+      <div class="posters-container">
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-01</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Harshavardhan G. Hegde</span>
+          </div>
+          <div class="poster-title">"Active region studies using SUIT and IRIS"</div>
+        </div>
+
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-02</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Kamal Joshi</span>
+          </div>
+          <div class="poster-title">"Study of failed filament eruptions from active region NOAA 11976"</div>
+        </div>
+
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-03</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Apoorv Dashora</span>
+          </div>
+          <div class="poster-title">"Characteristics of two Extreme-ultraviolet (EUV) waves"</div>
+        </div>
+
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-04</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>K. R. Premkumar</span>
+          </div>
+          <div class="poster-title">"Sun-as-a-star spectroscopic observation of a flare"</div>
+        </div>
+
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-05</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Anjan Banerjee</span>
+          </div>
+          <div class="poster-title">"Magneto-hydrostatic modelling of solar atmosphere"</div>
+        </div>
+
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-06</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Rajesh Mandal</span>
+          </div>
+          <div class="poster-title">"Effect of Dynamo-generated Large-scale Magnetic Fields on the f-mode"</div>
+        </div>
+
+        <div class="poster-item">
+          <div class="poster-id-badge">
+            <svg class="svg-icon" viewBox="0 0 24 24"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+            <span>Poster P-07</span>
+          </div>
+          <div class="poster-author">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Debasish Krishnatreya</span>
+          </div>
+          <div class="poster-title">"Title to be given"</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. LIST OF PARTICIPANTS PANEL 
+         ==================================================================== -->
+    <section class="tab-panel" id="tab-participants">
+      <div class="panel-header">
+        <h2 class="panel-title">Participants</h2>
+      </div>
+
+      <div class="participants-bar">
+        <div class="search-input-wrap">
+          <svg class="search-icon svg-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="p-search" class="part-search-input" placeholder="Search by name or institute..." aria-label="Search participants">
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="participants-table">
+          <thead>
+            <tr>
+              <th style="width: 65px;"><span class="th-inner">#</span></th>
+              <th style="width: 45%;"><span class="th-inner"><svg class="svg-icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Participant Name</span></th>
+              <th><span class="th-inner"><svg class="svg-icon" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="2"></line><line x1="8" y1="6" x2="8.01" y2="6"></line><line x1="16" y1="6" x2="16.01" y2="6"></line><line x1="8" y1="10" x2="8.01" y2="10"></line><line x1="16" y1="10" x2="16.01" y2="10"></line><line x1="8" y1="14" x2="8.01" y2="14"></line><line x1="16" y1="14" x2="16.01" y2="14"></line><line x1="8" y1="18" x2="8.01" y2="18"></line><line x1="16" y1="18" x2="16.01" y2="18"></line></svg> Institute / University</span></th>
+            </tr>
+          </thead>
+          <tbody id="p-tbody">
+            <tr><td class="num-cell">01</td><td><strong>K. Sankarsubramanian</strong></td><td class="affil-text">URSC, ISRO</td></tr>
+            <tr><td class="num-cell">02</td><td><strong>M Sreekant</strong></td><td class="affil-text">ISTRAC, ISRO</td></tr>
+            <tr><td class="num-cell">03</td><td><strong>Ramesh Chandra</strong></td><td class="affil-text">Kumaun University, Nainital</td></tr>
+            <tr><td class="num-cell">04</td><td><strong>Girjesh Gupta</strong></td><td class="affil-text">Udaipur Solar Observatory / PRL</td></tr>
+            <tr><td class="num-cell">05</td><td><strong>Dipankar Banerjee</strong></td><td class="affil-text">IIST, Thiruvananthapuram</td></tr>
+            <tr><td class="num-cell">06</td><td><strong>Natalie Krivova</strong></td><td class="affil-text">Max Planck Institute for Solar System Research (MPS), Germany</td></tr>
+            <tr><td class="num-cell">07</td><td><strong>Alok Ranjan Tiwary</strong></td><td class="affil-text">JP University, Bihar</td></tr>
+            <tr><td class="num-cell">08</td><td><strong>Sudip Mandal</strong></td><td class="affil-text">MCNS / MAHE, Manipal</td></tr>
+            <tr><td class="num-cell">09</td><td><strong>Nitin Yadav</strong></td><td class="affil-text">IIT Delhi</td></tr>
+            <tr><td class="num-cell">10</td><td><strong>Jayant Joshi</strong></td><td class="affil-text">Indian Institute of Astrophysics (IIA), Bengaluru</td></tr>
+            <tr><td class="num-cell">11</td><td><strong>Sreejith Padinhatteeri</strong></td><td class="affil-text">MCNS / MAHE, Manipal</td></tr>
+            <tr><td class="num-cell">12</td><td><strong>Shibu K Mathew</strong></td><td class="affil-text">Udaipur Solar Observatory / PRL</td></tr>
+            <tr><td class="num-cell">13</td><td><strong>Arun Kumar Awasthi</strong></td><td class="affil-text">University of Delhi</td></tr>
+            <tr><td class="num-cell">14</td><td><strong>Upendra Kumar Singh Kushwaha</strong></td><td class="affil-text">University of Allahabad</td></tr>
+            <tr><td class="num-cell">15</td><td><strong>Sanjay Kumar</strong></td><td class="affil-text">Patna University, Bihar</td></tr>
+            <tr><td class="num-cell">16</td><td><strong>Theodosios Chatzistergos</strong></td><td class="affil-text">Max Planck Institute for Solar System Research (MPS), Germany</td></tr>
+            <tr><td class="num-cell">17</td><td><strong>Sreebala P S</strong></td><td class="affil-text">University College, Thiruvananthapuram</td></tr>
+            <tr><td class="num-cell">18</td><td><strong>Dibyendu Nandi</strong></td><td class="affil-text">Raman Research Institute (RRI), Bengaluru</td></tr>
+            <tr><td class="num-cell">19</td><td><strong>Anjan Banerjee</strong></td><td class="affil-text">IISc, Bengaluru</td></tr>
+            <tr><td class="num-cell">20</td><td><strong>Munjiba M M</strong></td><td class="affil-text">MCNS / MAHE, Manipal</td></tr>
+            <tr><td class="num-cell">21</td><td><strong>Harshavardhan G Hegde</strong></td><td class="affil-text">MCNS / MAHE, Manipal</td></tr>
+            <tr><td class="num-cell">22</td><td><strong>Srinjana Routh</strong></td><td class="affil-text">ARIES, Nainital</td></tr>
+            <tr><td class="num-cell">23</td><td><strong>Ajay Kumar Yadav</strong></td><td class="affil-text">Max Planck Institute for Solar System Research (MPS), Germany</td></tr>
+            <tr><td class="num-cell">24</td><td><strong>Kamal Joshi</strong></td><td class="affil-text">Kumaun University, Nainital</td></tr>
+            <tr><td class="num-cell">25</td><td><strong>Garima Karki</strong></td><td class="affil-text">Kumaun University, Nainital</td></tr>
+            <tr><td class="num-cell">26</td><td><strong>Apoorv Dashora</strong></td><td class="affil-text">Kumaun University, Nainital</td></tr>
+            <tr><td class="num-cell">27</td><td><strong>Adithya H.N.</strong></td><td class="affil-text">MCNS / MAHE, Manipal</td></tr>
+            <tr><td class="num-cell">28</td><td><strong>Debasish Krishnatreya</strong></td><td class="affil-text">Tezpur University</td></tr>
+            <tr><td class="num-cell">29</td><td><strong>K R Premkumar</strong></td><td class="affil-text">Indian Institute of Astrophysics (IIA), Bengaluru</td></tr>
+            <tr><td class="num-cell">30</td><td><strong>Soumya Roy</strong></td><td class="affil-text">Physical Research Laboratory (PRL), Ahmedabad</td></tr>
+            <tr><td class="num-cell">31</td><td><strong>Megha Anand</strong></td><td class="affil-text">MCNS / MAHE, Manipal</td></tr>
+            <tr><td class="num-cell">32</td><td><strong>Nived V N</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">33</td><td><strong>Sanjay Yadav</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">34</td><td><strong>Sojwal Rajmane</strong></td><td class="affil-text">IISER Pune</td></tr>
+            <tr><td class="num-cell">35</td><td><strong>Deepak Kathait</strong></td><td class="affil-text">University College, Thiruvananthapuram</td></tr>
+            <tr><td class="num-cell">36</td><td><strong>Nishant Singh</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">37</td><td><strong>Rahul Gopalakrishnan</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">38</td><td><strong>Rushikesh Deogaonkar</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">39</td><td><strong>Sreejith S Nair</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">40</td><td><strong>Durgesh Tripathi</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">41</td><td><strong>A N Ramaprakash</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">42</td><td><strong>Rajesh Mandal</strong></td><td class="affil-text">IUCAA, Pune</td></tr>
+            <tr><td class="num-cell">43</td><td><strong>Elizabeth Khawlhring Songate</strong></td><td class="affil-text">University of Göttingen India Office, New Delhi</td></tr>
+            <tr><td class="num-cell">44</td><td><strong>Poonam Suri</strong></td><td class="affil-text">Max Planck Society (MPG) India Office, New Delhi</td></tr>
+            <tr><td class="num-cell">45</td><td><strong>Janmejoy Sarkar</strong></td><td class="affil-text">Max Planck Institute for Solar System Research (MPS), Germany (Online)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. VENUE & LOGISTICS PANEL
+         ==================================================================== -->
+    <section class="tab-panel" id="tab-venue">
+      <div class="panel-header">
+        <h2 class="panel-title">Venue &amp; Travel Logistics</h2>
+        <span class="panel-date-badge">IUCAA, Pune</span>
+      </div>
+
+      <!-- Venue & Dinner Cards -->
+      <div class="venue-top-grid">
+        <div class="info-card venue-card">
+          <h4>
+            <svg class="svg-icon" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="2"></line><line x1="8" y1="6" x2="8.01" y2="6"></line><line x1="16" y1="6" x2="16.01" y2="6"></line><line x1="8" y1="10" x2="8.01" y2="10"></line><line x1="16" y1="10" x2="16.01" y2="10"></line><line x1="8" y1="14" x2="8.01" y2="14"></line><line x1="16" y1="14" x2="16.01" y2="14"></line><line x1="8" y1="18" x2="8.01" y2="18"></line><line x1="16" y1="18" x2="16.01" y2="18"></line></svg>
+            <span>Meeting Venue</span>
+          </h4>
+          <p><strong>Institution:</strong> Inter-University Centre for Astronomy and Astrophysics (IUCAA)</p>
+          <p><strong>Session Hall:</strong> Bhaskara 3, IUCAA</p>
+          <p><strong>Address:</strong> Post Bag 4, Ganeshkhind, Savitribai Phule Pune University Campus, Pune, Maharashtra 411007, India</p>
+          <p style="margin-top: 14px;">
+            <a href="https://maps.google.com/?q=IUCAA+Pune" target="_blank" rel="noopener" class="map-action-link">
+              <span>Open IUCAA in Google Maps</span>
+              <svg class="svg-icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </p>
+        </div>
+
+        <div class="info-card dinner-card">
+          <h4>
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M8 22h8"></path><path d="M12 15v7"></path><path d="M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z"></path></svg>
+            <span>Workshop Dinner</span>
+          </h4>
+          <p><strong>Date &amp; Time:</strong> Thursday, October 22, 2026 (19:30 onwards)</p>
+          <p><strong>Venue:</strong> Toit Brewery &amp; Restaurant</p>
+          <p><strong>Location:</strong> Kalyani Nagar, Pune, Maharashtra (~11 km from IUCAA)</p>
+          <p style="margin-top: 14px;">
+            <a href="https://maps.google.com/?q=Toit+Kalyani+Nagar+Pune" target="_blank" rel="noopener" class="map-action-link">
+              <span>Open Toit in Google Maps</span>
+              <svg class="svg-icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- How to Reach IUCAA from Different Locations -->
+      <h3 class="transit-section-header">
+        <svg class="svg-icon" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+        <span>How to Reach IUCAA, Pune</span>
+      </h3>
+      
+      <div class="transit-grid">
+        <!-- From Pune Airport -->
+        <div class="transit-card">
+          <span class="transit-icon-badge badge-airport">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z"></path></svg>
+            <span>By Air</span>
+          </span>
+          <h5>Pune Airport (PNQ)</h5>
+          <div class="transit-distance">Distance: ~14 km &bull; Approx. 35–45 minutes</div>
+          <div class="transit-details">
+            <p><strong>Pre-paid Taxi:</strong> Counter available inside the arrivals terminal hall.</p>
+            <p style="margin-top: 6px;"><strong>App Cabs:</strong> Ola and Uber designated pick-up bays right outside the terminal.</p>
+            <p style="margin-top: 6px;"><strong>Route:</strong> Via Airport Road &rarr; Yerwada &rarr; Sangamwadi &rarr; Sancheti Hospital &rarr; Ganeshkhind Road into Pune University campus.</p>
+          </div>
+        </div>
+
+        <!-- From Pune Railway Station -->
+        <div class="transit-card">
+          <span class="transit-icon-badge badge-railway">
+            <svg class="svg-icon" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="16" rx="2"></rect><path d="M4 11h16"></path><path d="M12 3v8"></path><path d="m8 19-2 3"></path><path d="m18 22-2-3"></path><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle></svg>
+            <span>By Train</span>
+          </span>
+          <h5>Pune Railway Station (Pune Jn)</h5>
+          <div class="transit-distance">Distance: ~7 km &bull; Approx. 20–25 minutes</div>
+          <div class="transit-details">
+            <p><strong>Auto-Rickshaw:</strong> Pre-paid auto booth and metered autos available 24/7 outside Platform 1 exit.</p>
+            <p style="margin-top: 6px;"><strong>App Cabs:</strong> Ola and Uber pick-up points at the main station portico.</p>
+            <p style="margin-top: 6px;"><strong>Route:</strong> Via Sassoon Road &rarr; RTO &rarr; Sancheti Hospital &rarr; University Road to IUCAA.</p>
+          </div>
+        </div>
+
+        <!-- From Shivajinagar Station / Bus Stand -->
+        <div class="transit-card">
+          <span class="transit-icon-badge badge-bus">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M8 6v6"></path><path d="M15 6v6"></path><path d="M2 12h19.6"></path><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.6 19 6 17.7 6H4c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h3"></path><circle cx="7" cy="18" r="2"></circle><path d="M9 18h5"></path><circle cx="16" cy="18" r="2"></circle></svg>
+            <span>By Bus / Local</span>
+          </span>
+          <h5>Shivajinagar Station / Bus Stand</h5>
+          <div class="transit-distance">Distance: ~4 km &bull; Approx. 10–15 minutes</div>
+          <div class="transit-details">
+            <p><strong>Closest Transit Hub:</strong> Primary arrival point for intercity buses and Mumbai–Pune local trains.</p>
+            <p style="margin-top: 6px;"><strong>Transit:</strong> Auto-rickshaws are readily available outside directly to University Main Gate / IUCAA (~₹70–₹100).</p>
+          </div>
+        </div>
+
+        <!-- From Mumbai International Airport -->
+        <div class="transit-card">
+          <span class="transit-icon-badge badge-expressway">
+            <svg class="svg-icon" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11.1 2 11.5 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg>
+            <span>Via Expressway</span>
+          </span>
+          <h5>Mumbai Airport (CSMIA - BOM)</h5>
+          <div class="transit-distance">Distance: ~150 km &bull; Approx. 3.5–4 hours</div>
+          <div class="transit-details">
+            <p><strong>Intercity Cabs:</strong> 24/7 shared or private AC taxis (KK Travels, Cool Cabs) drop passengers directly inside IUCAA via the Mumbai-Pune Expressway.</p>
+            <p style="margin-top: 6px;"><strong>Express Trains:</strong> Trains from Mumbai CST / Dadar to Pune Junction (e.g. Deccan Queen, Pragati Express).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Campus Arrival Instructions -->
+      <div class="campus-tip-box">
+        <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        <div>
+          <strong>Campus Entry Note:</strong> Enter through the main gate of Savitribai Phule Pune University on Ganeshkhind Road. Cabs and auto-rickshaws are permitted inside the university campus. Ask the driver to drop you directly at the <strong>IUCAA Main Complex / Bhaskara Building</strong>.
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. CONTACT US PANEL
+         ==================================================================== -->
+    <section class="tab-panel" id="tab-contact">
+      <div class="panel-header">
+        <h2 class="panel-title">Contact Us</h2>
+        <span class="panel-date-badge">Workshop Inquiries &amp; Coordination</span>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-card-main">
+          <div class="contact-header-wrap">
+            <span class="contact-badge">Workshop Coordination</span>
+            <h3>IUCAA Solar Physics Group</h3>
+            <p class="contact-affiliation">Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune</p>
+          </div>
+
+          <div class="contact-email-box">
+            <div class="email-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="email-text-wrap">
+              <span class="email-label">Official Contact Email</span>
+              <a href="mailto:solarphysicsiucaa@gmail.com" class="contact-email-link">solarphysicsiucaa@gmail.com</a>
+            </div>
+            <a href="mailto:solarphysicsiucaa@gmail.com" class="email-action-btn">
+              <span>Send Email</span>
+              <svg class="svg-icon" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </a>
+          </div>
+
+          <div class="contact-info-grid">
+            <div class="contact-sub-card">
+              <h4>
+                <svg class="svg-icon" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="2"></line><line x1="8" y1="6" x2="8.01" y2="6"></line><line x1="16" y1="6" x2="16.01" y2="6"></line><line x1="8" y1="10" x2="8.01" y2="10"></line><line x1="16" y1="10" x2="16.01" y2="10"></line><line x1="8" y1="14" x2="8.01" y2="14"></line><line x1="16" y1="14" x2="16.01" y2="14"></line><line x1="8" y1="18" x2="8.01" y2="18"></line><line x1="16" y1="18" x2="16.01" y2="18"></line></svg>
+                <span>Host Institution</span>
+              </h4>
+              <p><strong>IUCAA</strong></p>
+              <p>Post Bag 4, Ganeshkhind, Savitribai Phule Pune University Campus</p>
+              <p>Pune 411007, Maharashtra, India</p>
+            </div>
+            <div class="contact-sub-card">
+              <h4>
+                <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                <span>Inquiries</span>
+              </h4>
+              <p>For questions regarding workshop registration, schedule, local travel, or accommodation:</p>
+              <p style="margin-top: 8px;">Please feel free to email <a href="mailto:solarphysicsiucaa@gmail.com" style="color: var(--accent-cyan); text-decoration: underline;">solarphysicsiucaa@gmail.com</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Institutional Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      International Workshop on Physics of Near- and Mid-UV Radiation from the Sun and Its Effects on Climate &bull; October 21–23, 2026 &bull; IUCAA, Pune
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
