@@ -1316,3 +1316,56 @@ a:hover {
     width: 100%;
   }
 }
+
+/* ============================================================
+COMMITTEE CARDS — Poster-style layout
+============================================================ */
+
+.committee-container {
+margin-top: 20px;
+}
+
+.committee-item {
+display: flex;
+flex-direction: column;
+}
+
+.committee-affiliation {
+margin-top: 10px;
+font-size: 0.9rem;
+line-height: 1.45;
+opacity: 0.8;
+}
+
+.committee-role {
+margin-top: 8px;
+font-size: 1rem;
+line-height: 1.45;
+font-weight: 500;
+}
+
+.committee-email {
+display: flex;
+align-items: center;
+gap: 7px;
+margin-top: 12px;
+font-size: 0.85rem;
+}
+
+.committee-email .svg-icon {
+width: 16px;
+height: 16px;
+flex-shrink: 0;
+}
+
+.committee-email a {
+color: var(--accent-cyan);
+text-decoration: underline;
+line-height: 1.3;
+overflow-wrap: anywhere;
+}
+
+.committee-item .poster-author {
+margin-top: 10px;
+}
+
