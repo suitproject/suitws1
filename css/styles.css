@@ -288,25 +288,32 @@ a:hover {
   padding: 14px 0;
 }
 
+.nav-tabs-wrapper .container {
+  max-width: 1260px;
+  padding: 0 16px;
+}
+
 .nav-tabs {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  align-items: center;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
 .nav-tab-btn {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
   background: var(--bg-panel);
   border: 1px solid var(--border-strong);
   color: var(--text-secondary);
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border-radius: 6px;
   cursor: pointer;
+  white-space: nowrap;
   transition: all 0.18s ease;
 }
 
