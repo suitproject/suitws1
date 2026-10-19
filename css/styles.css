@@ -657,6 +657,83 @@ a:hover {
   font-weight: 700;
 }
 
+/* Cancelled Talk Row */
+.cancelled-row {
+  background: rgba(244, 63, 94, 0.04) !important;
+  border-left: 3px solid var(--accent-coral) !important;
+  opacity: 0.78;
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+.cancelled-row:hover {
+  opacity: 1;
+  background: rgba(244, 63, 94, 0.07) !important;
+}
+
+.cancelled-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(244, 63, 94, 0.15);
+  color: #fb7185;
+  border: 1px solid rgba(244, 63, 94, 0.35);
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.cancelled-badge .svg-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.cancelled-row .talk-title {
+  color: #94a3b8;
+  text-decoration: line-through;
+  text-decoration-color: rgba(244, 63, 94, 0.6);
+  text-decoration-thickness: 2px;
+}
+
+.cancelled-row .speaker-line strong {
+  color: #64748b;
+  text-decoration: line-through;
+  text-decoration-color: rgba(244, 63, 94, 0.4);
+}
+
+.cancelled-row .time-cell {
+  color: #64748b;
+}
+
+.cancelled-row .time-cell .svg-icon {
+  color: #64748b;
+}
+
+/* Cancelled row inside Participants table */
+.participants-table tr.cancelled-row td {
+  color: #8492a6;
+}
+
+.participants-table tr.cancelled-row strong {
+  color: #94a3b8;
+  text-decoration: line-through;
+  text-decoration-color: rgba(244, 63, 94, 0.5);
+  text-decoration-thickness: 1.5px;
+}
+
+.participants-table tr.cancelled-row .cancelled-badge {
+  margin-bottom: 0;
+  margin-right: 8px;
+  vertical-align: middle;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+}
+
 /* --------------------------------------------------------------------------
    Posters Grid (with Violet / Celestial Accents)
    -------------------------------------------------------------------------- */

@@ -66,22 +66,29 @@ function initDayScheduleTabs() {
   const dayBtns = document.querySelectorAll('.day-btn');
   const dayViews = document.querySelectorAll('.day-schedule-view');
 
+  function activateDay(targetDay) {
+    dayBtns.forEach(b => {
+      b.classList.toggle('active', b.getAttribute('data-day') === targetDay);
+    });
+    dayViews.forEach(view => {
+      view.classList.toggle('active', view.id === targetDay);
+    });
+  }
+
   dayBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const targetDay = btn.getAttribute('data-day');
-
-      dayBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      dayViews.forEach(view => {
-        if (view.id === targetDay) {
-          view.classList.add('active');
-        } else {
-          view.classList.remove('active');
-        }
-      });
+      activateDay(targetDay);
     });
   });
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const dayParam = urlParams.get('day');
+  if (dayParam && ['day1', 'day2', 'day3'].includes(dayParam)) {
+    activateDay(dayParam);
+  } else if (window.location.hash && ['#day1', '#day2', '#day3'].includes(window.location.hash)) {
+    activateDay(window.location.hash.substring(1));
+  }
 }
 
 /* --------------------------------------------------------------------------
